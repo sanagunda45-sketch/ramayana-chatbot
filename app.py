@@ -5,7 +5,7 @@ st.title("🪷 Ramayana Live Chatbot")
 st.write("Talk with Lord Rama, Sita, or Hanuman — guided by Ramayana wisdom.")
 
 # Use your OpenRouter key from Streamlit secrets
-client = OpenAI(api_key=st.secrets['OPENROUTER_API_KEY'])
+client = OpenAI(api_key=st.secrets['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'])
 
 user_input = st.text_input("You:", "")
 
